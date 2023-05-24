@@ -34,7 +34,7 @@
             height: 25px;
             line-height: 22px;
             color: #fff;
-            background-color: #0b5ed7
+            background-color: #053170
         }
 
         .tokenfield .token a {

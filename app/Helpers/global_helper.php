@@ -12,8 +12,8 @@ function get_meta_value($meta_key)
 
 function set_about_nama($nama)
 {
-    //nama = "Muhammad Abdullah"
-    $arr = explode(" ", $nama); //idx 1 Muhammad idx 2 Abdullah
+    //nama = "Muhammad Rayhan"
+    $arr = explode(" ", $nama); //idx 1 Muhammad idx 2 Rayhan
     $kataakhir = end($arr);
     $kataakhir2 = "<span class='text-primary'>$kataakhir</span>";
     array_pop($arr); //Muhammad 
@@ -24,7 +24,8 @@ function set_about_nama($nama)
 function set_list_award($isi)
 {
     $isi = str_replace("<ul>", '<ul class="fa-ul mb-0">', $isi);
-    $isi = str_replace("<li>", '<li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>', $isi);
+    $isi = str_replace("<li>", '<li><span class="fa-li"><i class="fas 
+    fa-trophy text-warning"></i></span>', $isi);
     return $isi;
 }
 
